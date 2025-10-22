@@ -7,7 +7,7 @@ on:
 jobs:
   hw-checker:
     runs-on: ubuntu-22.04
-    premissions:write-all
+    premissions: write-all
     steps:
       - uses: actions/checkout@v4
 
